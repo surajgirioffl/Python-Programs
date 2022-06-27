@@ -29,5 +29,6 @@ drawSquare(False)
 t.left(180)
 drawSquare(False)
 drawSquare()
+t.hideturtle()  # to hide to turtle/arrow from graphics in end
 # end
 turtle.done()
