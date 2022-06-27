@@ -5,18 +5,20 @@ t.pencolor("black")
 t.speed(4)
 
 instance = turtle.Screen()  # creating object of Screen class
-instance.bgcolor("dodgerblue")
+instance.bgcolor("black")
 instance.title("Windows Logo")
 
 
 def drawSquare(left=True):
+    t.begin_fill()
+    t.fillcolor("dodgerblue")
     for i in range(4):
-        t.begin_fill()
         t.forward(side)
         if(left):
             t.left(90)
         else:  # for right
             t.right(90)
+    t.end_fill()
 
 
 side = 150  # side of square
