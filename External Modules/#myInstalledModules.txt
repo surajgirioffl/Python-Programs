@@ -1,0 +1,4 @@
+1. playsound (Play sound from your device)
+2. pywhatkit (WhatsApp Automation)
+3. Flask (Install for requirements in playsound)
+4. pyinstaller (Used to convert python script (source file) to executable file)
