@@ -1,3 +1,6 @@
+"""
+    Message bomber script. Use to write large number of messages and send them by auto pressing enter. 
+"""
 from pyautogui import write, press
 from time import sleep
 
