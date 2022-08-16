@@ -1,4 +1,3 @@
-from math import radians
 import turtle
 sc = turtle.Screen()  # creating object of Screen class
 sc.title("Indian National Flag")
