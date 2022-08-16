@@ -4,7 +4,7 @@ sc = turtle.Screen()  # creating object of Screen class
 sc.title("Indian National Flag")
 turtle.setup(800, 850)  # setting up the screen size
 t = turtle.Turtle()  # creating instance of 'Turtle' Class
-t.speed(0)
+t.speed(5)
 
 
 def drawRectangle(length, breadth):
