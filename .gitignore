@@ -1,3 +1,4 @@
 *.exe
 *.lnk
 *.ini
+__pycache__/
