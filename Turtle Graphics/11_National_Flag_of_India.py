@@ -6,7 +6,7 @@ t = turtle.Turtle()  # creating instance of 'Turtle' Class
 t.speed(5)
 
 
-def drawRectangle(length: float, breadth: float | int):
+def drawRectangle(length: float, breadth: float | int) -> None:
     """
     _summary_:
     function to draw rectangle shape using turtle graphics.
@@ -32,7 +32,7 @@ length = 270
 breadth = 80
 
 
-def drawFlagStrip(color: str):
+def drawFlagStrip(color: str) -> None:
     """_summary_
     Function to draw the strip of flag with desired color filled
 
