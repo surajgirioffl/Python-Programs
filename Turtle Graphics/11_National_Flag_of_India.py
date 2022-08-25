@@ -1,5 +1,8 @@
+"""
+Turtle graphics program to draw simple National Flag of India.
+"""
 import turtle
-sc = turtle.Screen()  # creating object of Screen class
+sc = turtle.Screen()  # creating object of '_Screen' class using function Screen()
 sc.title("Indian National Flag")
 turtle.setup(800, 850)  # setting up the screen size
 t = turtle.Turtle()  # creating instance of 'Turtle' Class
