@@ -1,5 +1,5 @@
 """
-    02) String formatting using for 'format' member function of <class str>
+    02) String formatting using 'format' member function of <class str>
 """
 
 # ----------------------------------------------------------------
