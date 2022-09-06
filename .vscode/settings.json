@@ -1,5 +1,22 @@
 {
     "files.associations": {
         "utility": "cpp"
-    }
+    },
+    /*source: https://stackoverflow.com/questions/67849168/format-code-in-vscode-setting-for-line-break*/
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "editor.wordWrap": "off",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 160,
+    /*source: https://stackoverflow.com/questions/65955455/auto-formatting-python-code-to-put-parameters-on-same-line*/
+    "python.formatting.blackArgs": [
+        "--line-length=150"
+    ],
+    "python.formatting.provider": "yapf"
 }
