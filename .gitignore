@@ -2,3 +2,4 @@
 *.lnk
 *.ini
 __pycache__/
+temp/
