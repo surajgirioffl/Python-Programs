@@ -18,5 +18,5 @@
     "python.formatting.blackArgs": [
         "--line-length=150"
     ],
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "black"
 }
